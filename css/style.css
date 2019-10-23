@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  color: black;
+  min-width: 574px;
+}
+.conteiner {
+  width: 1140px;
+  margin-left: auto; /*Размещаем контейнер по середине браузера*/
+  margin-right: auto; /*Размещаем контейнер по середине браузера*/
+}
+.header {
+  padding-top: 77px;
+  padding-bottom: 96px;
+}
+.header-text__title {
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.header-text__sibtitle {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.header-text__descr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 47px;
+}
+
+.header-text__price {
+  color: #313131;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 53px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: #f05a22;
+  color: #fff;
+  padding: 22px 43px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.button-o {
+  background-color: transparent; /* Прозрачный фон */
+  border: 3px solid #f05a22;
+  color: #f05a22;
+  /* padding: 22px 43px; */
+}
+
+/* Конец блока header */
+
+.features{
+  background-color: #f2f2f2;
+  padding-top: 89px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.section-title{
+  margin-bottom: 91px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.feacture__img{
+  min-height: 55px;
+}
+.feacture__text{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.buyers-title{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 74px;
+  margin-bottom: 94px;
+}
+
+.buyers-peoples__img{
+  float: left;
+  margin: 36px;  
+} 
